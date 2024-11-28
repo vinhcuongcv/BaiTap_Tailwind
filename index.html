@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        Saigontourist - Du lich trong nuoc, Du lich nuoc ngoai, Ve may bay, Thue xe du lich, Dat phong khach
+        san
+    </title>
+    <link rel="shortcut icon" href="https://saigontourist.net/images/icons/favicon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./src/main.tsx" defer type="module"></script>
+    <script src="./src/app.ts" defer type="module" async></script>
+    <script>
+        // Tùy chỉnh cấu hình tại runtime
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#182d4c",
+                        blue33: '#3562a6',
+                        green088: '#08873d',
+                        blue336: '#3361a8',
+                        grayebe: '#ebeff8',
+                        blue456: '#45689a',
+                        blue344: '#344963',
+                        graye9e9: '#e9e9e9',
+                        gray8484: '#848484',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'], // Font chữ tùy chỉnh
+                        heading: ['Poppins', 'sans-serif'], // Font chữ tiêu đề
+                    },
+                    borderRadius: {
+                        '1.375': '1.375rem', // Định dạng bo tròn cho các thành phần
+                    },
+                    width: {
+                        'max': 'max-content', // Định dạng chiều rộng tối đa cho các thành phần
+                        '250': '250px',
+                        '300': '300px',
+                        '302': '302px',
+                    },
+                    height: {
+                        'max': 'max-content',
+                        '735': '735px',
+                        '933': '933px',
+                        '609': '609px',
+                    },
+                    fontSize: {
+                        '16': '16px',
+                    },
+                    screens: {
+                        60: '60%',
+                    },
+                    spacing: {
+                        9: '9%',
+                    },
+                },
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+</html>
